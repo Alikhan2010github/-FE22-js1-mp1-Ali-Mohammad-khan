@@ -44,7 +44,7 @@ for (let i = 0; i < 3; i++) {
       ul.appendChild(li);
     }
      } else if (i == 1) {
-    for (let i = 9; i > -1; i--) {
+    for (let i = 9; i >=0; i--) {
       let li = document.createElement('li');
       li.innerText = i;
       if (li.innerText % 2 == 1) {
